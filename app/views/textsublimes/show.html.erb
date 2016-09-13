@@ -1,0 +1,8 @@
+<%= @textsublime.title %><br>
+<%= @textsublime.description %>
+
+<br>
+<br>
+
+<%= link_to "Edit", edit_textsublime_path(@textsublime) %>
+<%= link_to "Delete", textsublime_path(@textsublime), method: :delete, data: { confirm: "Are you want delete?"} %>
